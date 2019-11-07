@@ -129,7 +129,7 @@
             </resource>
         </resources>
         <plugins>
-            <!-- 1111 222
+            <!-- 1111 222 33
             Both "org.apache" and "org.codehaus" are default providers of MOJO plugins
             which are especially dedicated to Maven projects.
             The MOJO stands for "Maven plain Old Java Object".
@@ -447,6 +447,11 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+		    <plugin>
+		      <groupId>org.apache.maven.plugins</groupId>
+		      <artifactId>maven-pmd-plugin</artifactId>
+		      <version>3.12.0</version>
+		    </plugin>            
         </plugins>
     </reporting>
 
